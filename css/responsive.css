@@ -1,6 +1,38 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1160px) {
     .container {
         width: 100%;
     }
 }
 
+
+@media screen and (max-widt: 768px ) {
+    .container {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        margin: 0 auto;
+    }
+
+
+    .row {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .col {
+        margin: 0 auto;
+    }
+
+    .why-us {
+        background-color: cornflowerblue;
+    }
+}
